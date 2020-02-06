@@ -1,0 +1,10 @@
+name=["nam","man","thang"]
+print(name)
+print(name.pop(),"deleted!")
+print(name)
+name=["nam","man","thang"]
+print("\n",name)
+print(name.pop(1),"deleted!")
+print(name)
+name=["nam","man","thang"]
+print("\n",name)
