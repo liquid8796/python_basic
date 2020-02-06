@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6c54d759-c5cc-4c77-bbd5-a3926c5bb55a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ListRemove.py</StartupFile>
+    <StartupFile>ListAppend.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Empty_list_is_False.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="for_in.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="InsertValue.py">
