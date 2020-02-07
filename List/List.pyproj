@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6c54d759-c5cc-4c77-bbd5-a3926c5bb55a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ListAppend.py</StartupFile>
+    <StartupFile>range(start,stop,step).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -46,6 +46,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ListSequence.py" />
+    <Compile Include="range%28start,stop%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="range%28start,stop,step%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="range%28stop%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ReplaceValue.py">
       <SubType>Code</SubType>
     </Compile>
