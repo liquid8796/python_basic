@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6c54d759-c5cc-4c77-bbd5-a3926c5bb55a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>.reverse().py</StartupFile>
+    <StartupFile>.split().py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include=".reverse%28%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include=".sort%28%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include=".split%28%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Draft.py">
