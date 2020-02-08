@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6c54d759-c5cc-4c77-bbd5-a3926c5bb55a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>.split().py</StartupFile>
+    <StartupFile>tricks.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include=".extend%28%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include=".join%28%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include=".reverse%28%29.py">
@@ -68,6 +71,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ReplaceValue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tricks.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
