@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6c54d759-c5cc-4c77-bbd5-a3926c5bb55a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>tricks.py</StartupFile>
+    <StartupFile>.split().py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
