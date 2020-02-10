@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>103ed99b-8379-4efa-b052-e07683a7cdeb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Open.py</StartupFile>
+    <StartupFile>.read().py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include=".read%28%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Open.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
