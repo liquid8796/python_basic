@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>103ed99b-8379-4efa-b052-e07683a7cdeb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>.strip() method arguments.py</StartupFile>
+    <StartupFile>.seek() offset and whence.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -36,10 +36,19 @@
     <Compile Include=".readlines%28%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include=".seek%28%29 offset and whence.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include=".seek%280%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include=".strip%28%29 method arguments.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Open.py" />
+    <Compile Include="w%27 or %27w+%27 modes.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
