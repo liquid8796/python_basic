@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>103ed99b-8379-4efa-b052-e07683a7cdeb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>.readline().py</StartupFile>
+    <StartupFile>.strip() method arguments.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,10 +24,19 @@
     <Compile Include=".read%28%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include=".readline %28%29 while loop.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include=".readline%28%29 with .strip%28%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include=".readline%28%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include=".readlines%28%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include=".strip%28%29 method arguments.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Open.py" />
