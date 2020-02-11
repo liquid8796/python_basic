@@ -5,5 +5,17 @@ line=file.read()
 print(line)
 
 file.seek(4)
+line=file.read()    
+print(line)
+
+file.seek(0,2)
+file.write("Nam Ha")
+file.seek(0)
+line=file.read()
+print(line)
+
+file.seek(0)
+print(file.write("Connected!"))
+file.seek(0)
 line=file.read()
 print(line)

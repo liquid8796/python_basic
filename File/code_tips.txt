@@ -1,3 +1,4 @@
--use simple function and variable names
+Connected!e function and variable names
 -comment code
 -organize code into functions
+Nam Ha
